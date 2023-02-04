@@ -2,3 +2,14 @@ Client:
 npm create vite@latest ./
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+
+ES7 shourtcuts:
+rafce
+import React from 'react'
+
+const $1 = () => {
+  return <div>$0</div>
+}
+
+export default $1
+More info: https://github.com/ults-io/vscode-react-javascript-snippets/blob/HEAD/docs/Snippets.md
