@@ -5,6 +5,10 @@ npx tailwindcss init -p
 npm install file-saver
 npm install react-router-dom
 
+Server:
+npm init -y
+npm install cloudinary cors dotenv express mongoose nodemon openai
+
 ES7 shourtcuts:
 rafce
 import React from 'react'
