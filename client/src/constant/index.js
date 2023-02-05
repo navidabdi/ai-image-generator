@@ -1,4 +1,5 @@
 export const surpriseMePrompts = [
+  'arnold schwarzenegger at cyberpunk with a highly ai look, realistic, ultra 8k',
   'an armchair in the shape of an avocado',
   'a surrealist dream-like oil painting by Salvador Dalí of a cat playing checkers',
   'teddy bears shopping for groceries in Japan, ukiyo-e',
