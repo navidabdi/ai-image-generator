@@ -14,7 +14,7 @@ export async function downloadImage(_id, photo) {
   FileSaver.saveAs(photo, `download-${_id}.jpg`);
 }
 
-export function checkTheme() {
+export function useThemeDetector() {
   const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
   if (darkThemeMq.matches) {
     // Theme set to dark.
