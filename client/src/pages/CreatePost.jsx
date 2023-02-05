@@ -81,10 +81,10 @@ const CreatePost = () => {
   return (
     <section className="flex flex-col justify-between item-center mx-auto lg:space-x-10 lg:max-w-[85%] lg:flex-row">
       <div className="mb-10 lg:mb-0">
-        <h1 className="font-extrabold text-[#222328] text-[38px]">
+        <h1 className="font-extrabold text-slate-900 dark:text-slate-200 text-[38px]">
           Generate AI Image 😎
         </h1>
-        <p className="mt-2 text-[#666e75] text-[18px] max-w-[500px]">
+        <p className="mt-2 text-slate-500 dark:text-slate-400 text-[18px] max-w-[500px]">
           Generate an imaginative image through DALL-E AI and share it with the
           community
         </p>
@@ -112,7 +112,7 @@ const CreatePost = () => {
             />
           </div>
 
-          <p className="mt-5 mb-3 lg:mt-10 text-[#666e75] text-[14px]">
+          <p className="mt-5 mb-3 lg:mt-10 text-slate-500 dark:text-slate-400 text-[14px]">
             ** Once you have created the image you want, you can share it with
             others in the community **
           </p>
@@ -134,7 +134,7 @@ const CreatePost = () => {
         </form>
       </div>
       <div className="w-full lg:w-[45%]">
-        <div className="relative bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-full p-3 flex justify-center items-center">
+        <div className="relative bg-slate-50 dark:bg-slate-500 border border-slate-300 text-slate-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-full p-3 flex justify-center items-center">
           {form.photo ? (
             <img
               src={form.photo}
