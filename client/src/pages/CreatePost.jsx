@@ -126,7 +126,7 @@ const CreatePost = () => {
             </button>
             <button
               type="submit"
-              className="text-white bg-[#6469ff] font-medium rounded-md w-full px-10 py-3 text-center"
+              className="text-white bg-indigo-600 font-medium rounded-md w-full px-10 py-3 text-center"
             >
               {loading ? "Sharing..." : "Share with the Community"}
             </button>
