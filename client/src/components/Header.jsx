@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { logo } from "../assets";
 import Logo from "./Logo";
 import DarkSwitch from "./DarkSwitch";
 
